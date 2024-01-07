@@ -6,6 +6,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
+    unoptimized: true,
     domains: ['pbs.twimg.com', 'lh3.googleusercontent.com']
   }
 }
