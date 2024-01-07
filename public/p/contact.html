@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Us — Vine</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/vine_basic.css">
+</head>
+
+<body class='www-page'>
+    <div class='container'>
+        <nav>
+            <a class='logo' href="/" draggable="false">
+			<img src="/images/vine_glyph_2x.png" width="104px" height="104px" draggable="false"/>
+		</a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a class='help' href="/p/help.html">Help</a></li>
+            </ul>
+        </nav>
+        <section id="content">
+            <h1>Contact Us</h1>
+
+            <p>For ongoing information about Vine, please read <a href="/blog">our blog</a>.</p>
+
+            <h2>Press</h2>
+            <p>For press inquiries, please contact press@vine.co</p>
+
+            <h2>Support &amp; Feedback</h2>
+            <p>Please <a href="/support">visit our support center</a> if you need support (including account deletion) or would like to share feedback.</p>
+
+            <h2>Abuse</h2>
+            <p>To report abuse, please <a href="/abuse">click here</a>.</p>
+
+            <h2>Copyright Infringement</h2>
+            <p>To report copyright infringement, please email <a href="mailto:copyright@vine.co">copyright@vine.co</a></p>
+        </section>
+        <footer>
+            <ul>
+                <li><a href="https://twitter.com/vineapp">@vineapp</a> (twitter)</li>
+                <li><a href="https://www.facebook.com/vineapp">@vineapp</a> (facebook)</li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="/p/terms.html" target="_blank" rel="noreferrer">Terms</a></li>
+                <li><a href="/p/privacy.html" target="_blank" rel="noreferrer">Privacy</a></li>
+                <li><a href="/p/rules.html">Rules</a></li>
+            </ul>
+            <script>
+                document.addEventListener("DOMContentLoaded", function(event) {
+                    document.getElementById('copyright').innerHTML = `© ${new Date().getFullYear()} Vine Labs, Inc.`
+                });
+            </script>
+            <p id="copyright"></p>
+        </footer>
+</body>
+
+</html>

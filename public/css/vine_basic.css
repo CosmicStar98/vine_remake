@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #0083b4;
+    font-weight: bold;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;	
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+fieldset {
+    border: none;
+    padding: 10px 0 10px 0;
+}
+
+input:focus {
+    outline-width: 0;
+}
+
+input.textfield {
+    width: 276px;
+    font-size: 24px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3px 1px 1px 1px;
+    border-color: #D7D6D1;
+    padding: 5px 10px 5px 10px;
+}
+
+input.password {
+    padding-left: 35px;
+    width: 231px;
+    background: #fff url(/images/lock_icon.png) no-repeat 10px;
+}
+
+.www-page {
+    border-top: 10px solid #00AC7F;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333332;
+}
+
+.www-page address {
+    margin: 20px 0 0 0;
+}
+
+.www-page .container {
+    width: 780px;
+    margin: 0 auto;
+}
+
+.www-page .legal {
+    padding-bottom: 15px;
+}
+
+.www-page .legal h1,
+.www-page .legal h2,
+.www-page .legal h3 {
+    margin-top: 20px;
+}
+
+.www-page .legal ul {
+    padding: 20px 0 0 20px;
+        margin-bottom: 20px;
+}
+
+.www-page .legal ul {
+}
+
+.www-page .legal li.major {
+        padding-left: 5px;
+        margin-bottom: 20px;
+}
+
+
+.www-page h1, .www-page h2, .www-page h3 {
+    font-family: "Verse Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+
+.www-page h1 {
+    font-size: 32px;
+    margin: 0 0 10px 0;
+}
+
+.www-page h2 {
+    font-size: 24px;
+    margin: 30px 0 30px 0;
+}
+
+.www-page h2.separator {
+    border-top: 1px solid #eeeeed;
+    margin: 30px 0 0 0;
+    padding: 15px 0 0 0;
+}
+
+.www-page p {
+    margin: 20px 0 0 0;
+    line-height: 24px;
+}
+
+.www-page nav {
+    width: 160px;
+    padding: 20px 0 0 0;
+    float: left;
+}
+
+.www-page nav .logo {
+    display: block;
+    margin: 20px 0 20px 0;
+}
+
+.www-page nav ul {
+    list-style: none;
+}
+
+.www-page nav ul li {
+    margin: 0;
+}
+
+.www-page nav ul li a {
+    padding: 0 0 14px 20px;
+    font-weight: normal;
+    display: block;
+    color: #999996;
+    width: 70px;
+}
+
+.www-page nav ul li a:hover {
+    color: #333332;
+}
+
+.www-page nav.blog ul li a.blog, .www-page nav.help ul li a.help, .www-page nav.jobs ul li a.jobs {
+    color: #333332;
+    font-weight: bold;
+}
+
+.www-page #content {
+    padding: 40px 0 40px 0;
+    width: 620px;
+    float: left
+}
+
+.captcha form {
+    width: 250px;
+    margin: 0 auto;
+    font-size: 17pt;
+}
+
+.captcha #captcha_image {
+    margin: 0 auto;
+    display: block;
+}
+
+.captcha .captcha-input {
+    color: #000;
+    font-family: "Verse Sans", Helvetica, Arial, sans-serif;
+    font-size: inherit;
+    margin-top: 10px;
+}
+
+.captcha .captcha-submit {
+    display: inline;
+}
+
+.captcha .captcha-input input {
+    font-size: inherit;
+    letter-spacing: 1.3em;
+    text-transform: uppercase;
+}
+
+.captcha .captcha-input input::-webkit-input-placeholder {
+    letter-spacing: initial;
+    text-transform: initial;
+}
+
+.captcha .captcha-submit {
+    float: right;
+    background-color: #00AC7F;
+    font-size: inherit;
+    margin: 10px 0;
+}
+
+.captcha .refresh {
+    font-size: 13pt;
+    text-align: center;
+}
+
+footer {
+    clear: left;
+    display: block;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    border-top: 1px solid #eeeeed;
+    height: 18px;
+}
+
+.www-page footer p {
+    float: left;
+    margin: 0;
+    position: relative;
+    top: -3px;
+    color: #999996;
+}
+
+footer ul {
+    float: right;
+    list-style: none;
+}
+
+footer ul li {
+    float: left;
+    padding: 0 0 0 20px;
+}
+
+footer ul li a {
+    font-weight: normal;
+    color: #999996;
+}
+
+footer ul li a:hover {
+    color: #333332;
+}
+
+/* High resolution displays */
+@media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+
+    input.password {
+        background: #fff url(/images/lock_icon_2x.png) no-repeat 10px;
+        background-size: 11px 15px;
+    }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 960px) {
+
+    .hide-mobile {
+        display: none;
+    }
+
+    .www-page .container {
+        width: auto;
+        margin: 0 auto;
+        padding: 0 15px 0 15px;
+    }
+
+    .www-page h1 {
+        font-size: 32px;
+        margin: 0 0 10px 0;
+    }
+
+    .www-page h2 {
+        font-size: 24px;
+        margin: 30px 0 30px 0;
+    }
+
+    .www-page p {
+        margin: 20px 0 0 0;
+    }
+
+    .www-page nav {
+        width: auto;
+        padding: 20px 0 0 0;
+        float: none;
+    }
+
+    .www-page nav .logo {
+        display: block;
+        margin: 0;
+        float: left;
+    }
+
+    .www-page nav .logo img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .www-page nav ul {
+        display: block;
+        padding: 30px 0 0 0;
+        float: right;
+    }
+
+    .www-page nav ul li {
+        float: left;
+        padding: 0 0 0 15px;
+        margin: 0;
+    }
+
+    .www-page nav ul li a {
+        padding: 0;
+        display: block;
+        width: auto;
+    }
+
+    .www-page #content {
+        padding: 60px 0 40px 0;
+        clear: right;
+        width: auto;
+        float: none;
+    }
+
+    .www-page footer p {
+        float: none;
+        margin: 0 0 3px 0;
+    }
+
+    .www-page footer {
+        height: 44px;
+    }
+
+    footer ul {
+        float: none;
+        list-style: none;
+        display: inline-block;
+    }
+
+    footer ul li {
+        float: left;
+        padding: 0 8px 0 8px;
+    }
+}

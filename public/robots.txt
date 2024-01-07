@@ -1,0 +1,6 @@
+# http://www.robotstxt.org
+User-agent: *
+Disallow:
+
+User-agent: bingbot
+Crawl-delay: 10

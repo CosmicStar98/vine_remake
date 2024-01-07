@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="576px" height="576px" viewBox="0 0 576 576" enable-background="new 0 0 576 576" xml:space="preserve">
+<rect x="156" y="204" fill="#FFAD40" width="168" height="288"/>
+<path fill="#FFFFFF" d="M216,444h108V228H216c-6.633,0-12,5.367-12,12v192C204,438.633,209.367,444,216,444z"/>
+<path fill="#FFFFFF" d="M324,156v-12c0-6.633-5.367-12-12-12H168c-6.633,0-12,5.367-12,12v12h-24v48h216v-48H324z"/>
+<g>
+	<path fill="#F279AC" d="M60,468c0,13.254,10.746,24,24,24v-48C70.746,444,60,454.746,60,468z"/>
+	<path fill="#FFFFFF" d="M84,444v48c13.254,0,24-10.746,24-24S97.254,444,84,444z"/>
+</g>
+<g>
+	<path fill="#F279AC" d="M139.031,487.031c-9.375,9.375-9.375,24.562,0,33.938l33.938-33.938
+		C163.594,477.656,148.406,477.656,139.031,487.031z"/>
+	<path fill="#FFFFFF" d="M172.969,487.031l-33.938,33.938c9.375,9.375,24.562,9.375,33.938,0S182.344,496.406,172.969,487.031z"/>
+</g>
+<g>
+	<path fill="#F279AC" d="M264,516c13.254,0,24-10.746,24-24h-48C240,505.254,250.746,516,264,516z"/>
+	<path fill="#FFFFFF" d="M240,492h48c0-13.254-10.746-24-24-24S240,478.746,240,492z"/>
+</g>
+<rect x="252" y="252" fill="#CCCCCC" width="72" height="12"/>
+<rect x="228" y="288" fill="#CCCCCC" width="96" height="12"/>
+<rect x="228" y="324" fill="#CCCCCC" width="96" height="12"/>
+<rect x="276" y="360" fill="#CCCCCC" width="48" height="12"/>
+<rect x="276" y="396" fill="#CCCCCC" width="48" height="12"/>
+<polygon opacity="0.1" points="276,204 156,324 156,204 "/>
+<g>
+	<path fill="#FFB973" d="M492,384c0,26.402-21.598,48-48,48l0,0c-26.402,0-48-21.598-48-48V96c0-26.402,21.598-48,48-48l0,0
+		c26.402,0,48,21.598,48,48V384z"/>
+	<rect x="396" y="192" opacity="0.1" width="96" height="96"/>
+	<circle opacity="0.1" cx="414" cy="174" r="6"/>
+	<circle opacity="0.1" cx="438" cy="174" r="6"/>
+	<circle opacity="0.1" cx="462" cy="174" r="6"/>
+	<circle opacity="0.1" cx="426" cy="150" r="6"/>
+	<circle opacity="0.1" cx="450" cy="150" r="6"/>
+	<circle opacity="0.1" cx="474" cy="150" r="6"/>
+	<circle opacity="0.1" cx="414" cy="126" r="6"/>
+	<circle opacity="0.1" cx="438" cy="126" r="6"/>
+	<circle opacity="0.1" cx="462" cy="126" r="6"/>
+	<circle opacity="0.1" cx="426" cy="102" r="6"/>
+	<circle opacity="0.1" cx="450" cy="102" r="6"/>
+	<circle opacity="0.1" cx="474" cy="102" r="6"/>
+	<circle opacity="0.1" cx="414" cy="378" r="6"/>
+	<circle opacity="0.1" cx="438" cy="378" r="6"/>
+	<circle opacity="0.1" cx="462" cy="378" r="6"/>
+	<circle opacity="0.1" cx="426" cy="354" r="6"/>
+	<circle opacity="0.1" cx="450" cy="354" r="6"/>
+	<circle opacity="0.1" cx="474" cy="354" r="6"/>
+	<circle opacity="0.1" cx="414" cy="330" r="6"/>
+	<circle opacity="0.1" cx="438" cy="330" r="6"/>
+	<circle opacity="0.1" cx="462" cy="330" r="6"/>
+	<circle opacity="0.1" cx="426" cy="306" r="6"/>
+	<circle opacity="0.1" cx="450" cy="306" r="6"/>
+	<circle opacity="0.1" cx="474" cy="306" r="6"/>
+	<path fill="#FFFFFF" d="M480,264c0,6.598-5.402,12-12,12h-48c-6.598,0-12-5.402-12-12v-48c0-6.598,5.402-12,12-12h48
+		c6.598,0,12,5.402,12,12V264z"/>
+</g>
+</svg>
